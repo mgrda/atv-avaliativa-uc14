@@ -60,7 +60,7 @@ export default function HomeScreen() {
               Integração fluida entre hardware e nuvem com alta performance.
             </Text>
             <View style={styles.heroActions}>
-              <TouchableOpacity style={styles.primaryBtn}>
+              <TouchableOpacity style={styles.primaryBtn} onPress={() => router.push('/recursos' as any)}>
                 <Text style={styles.primaryBtnText}>Iniciar Atividade</Text>
               </TouchableOpacity>
               <TouchableOpacity style={styles.secondaryBtn} onPress={() => router.push('/docs')}>
